@@ -1,6 +1,6 @@
 #!/bin/bash
 # Масив
-packages=("apache" "mariadb" "firewall")
+packages=("apache" "mariadb" "firewall" "docker")
 # Додаємо до масиву пакети, які передані як аргументи при запуску скрипта
 packages+=("$@")
 # Функція для установки пакетів на вибраному дистрибутиві
