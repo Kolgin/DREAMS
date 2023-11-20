@@ -1,0 +1,7 @@
+# Використовуємо офіційний образ Pgadmin4
+FROM dpage/pgadmin4
+
+# Встановлюємо необхідні змінні середовища
+ENV PGADMIN_DEFAULT_EMAIL=vovik425@gmail.com
+ENV PGADMIN_DEFAULT_PASSWORD=password
+

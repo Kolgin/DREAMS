@@ -1,0 +1,9 @@
+
+#Dockerfile для PostgreSQL
+
+# Використовуємо офіційний образ PostgreSQL з Docker Hub
+FROM postgres:13
+
+# Встановлюємо змінну середовища для пароля PostgreSQL
+ENV POSTGRES_PASSWORD=postgres
+

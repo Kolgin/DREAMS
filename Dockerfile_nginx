@@ -1,0 +1,12 @@
+# Використовуємо офіційний образ Nginx
+FROM nginx:latest
+
+# Копіюємо наш index.html до каталогу /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html
+
+# Вказуємо, який порт буде використовуватися
+EXPOSE 80
+
+# CMD для запуску Nginx
+CMD ["nginx", "-g", "daemon off;"]
+
