@@ -12,5 +12,5 @@
 
 
 Результати вашої роботи (Dockerfiles, docker-compose.yml) додайте у Git-репозиторій з описом в README.md, та у lms додайте лінк на репозиторій.
-![image](https://github.com/Kolgin/DREAMS/assets/12258966/b38d6016-53cc-4047-b5e7-0b4b93d594e1)
+
 
